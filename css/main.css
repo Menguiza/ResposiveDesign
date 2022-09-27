@@ -66,4 +66,5 @@ body{
     font-size: 40px;
     cursor: pointer;
     text-decoration: none;
+    z-index: 1;
 }
