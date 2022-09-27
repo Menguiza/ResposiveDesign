@@ -44,10 +44,15 @@ body{
     text-align: center;
 }
 
+.user-box {
+    position: absolute;
+}
+
 .ClickableIndex{
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
 }
 
 .ingresarButton{
@@ -67,4 +72,198 @@ body{
     cursor: pointer;
     text-decoration: none;
     z-index: 1;
+}
+
+.register {
+    z-index: 1;
+}
+
+#navBar {
+    background: #A0CCDA;
+    height: 70px;
+    width: 100%;
+    position: relative;
+}
+
+.logoBar {
+    top: 5px;
+    left: 10px;
+    position: absolute;
+}
+
+.listBar {
+    top: 5px;
+    left: 270px;
+    position: absolute;
+    z-index: 1;
+}
+
+.textBar {
+    top: 5px;
+    left: 80px;
+    position: absolute;
+    font-size: 40px;
+}
+
+.userBar {
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.searchBar {
+    top: 5px;
+    right: 290px;
+    position: absolute;
+    z-index: 1;
+}
+
+.homeBar {
+    top: 5px;
+    right: 360px;
+    position: absolute;
+    z-index: 1;
+}
+
+.reproductorBar {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-box {
+    position: absolute;
+    top: 5px;
+    right: 80px;
+    width: 200px;
+    background: white;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+    grid-auto-rows: auto;
+    justify-content: center;
+}
+
+.one {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.three {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.four {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.five {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.six {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.seven {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.nine {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+.eleven {
+    grid-column: 1;
+    grid-row: 6;
+}
+
+.vinyl {
+    border-radius: 25px;
+    background: #7BC950;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.textVinyl {
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.song {
+    border-radius: 25px;
+    background: #7BC950;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.busquedaText {
+    font-size: 40px;
+    color: lightgrey;
+    text-align: center;
+}
+
+.add {
+    border-radius: 25px;
+    background: #A0CCDA;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+.songsText {
+    font-size: 40px;
+    color: grey;
+    text-align: center;
+}
+
+.user {
+    border-radius: 25px;
+    background: #A0CCDA;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    z-index: -1;
+}
+
+.userName {
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.profileImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
