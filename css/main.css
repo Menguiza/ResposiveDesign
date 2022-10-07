@@ -51,15 +51,7 @@ body{
     font-size: 20px;
 }
 
-#textUserHolder{
-    border-radius: 10px;
-    height: 30px;
-    width: 100%;
-    background-color: lightgray;
-    border-color: darkgrey;
-}
-
-#textPasswordHolder{
+.textUserHolder{
     border-radius: 10px;
     height: 30px;
     width: 100%;
@@ -88,6 +80,14 @@ body{
     color: #5f564f;
     font-weight: 600;
     font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.recoverPass {
+    color: #5f564f;
+    font-weight: 600;
+    font-size: 15px;
     text-decoration: none;
     z-index: 1;
 }
