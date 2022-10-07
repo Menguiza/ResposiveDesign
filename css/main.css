@@ -6,11 +6,13 @@ body{
 }
 
 #BackgroundComp{
+    top: 0;
     width: 100%;
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content:center;
     position: absolute;
+    z-index: 0;
 }
 
 #inicio{
@@ -18,12 +20,18 @@ body{
     display: flex;
     justify-content: center;
     position: relative;
-    top: 300px;
+    z-index: 1;
+    top: 250px;
 }
 
 .logoIcon {
     width: 40vh;
     height: 40vh;
+}
+
+.backGroundIcon {
+    width: 80vh;
+    height: 70%;
 }
 
 .user-box {
@@ -61,24 +69,26 @@ body{
 
 .ingresarButton{
     width: 300px;
-    height: 90px;
+    height: 50px;
     text-align: center;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    outline: solid;
-    outline-color: dimgray;
-    background-color: #7CE577;
-    color: white;
+    justify-content: center;
+    display: flex;
+    border-radius: 25px;
+    background-color: #e1ab4b;
+    color: #5f564f;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
     cursor: pointer;
     text-decoration: none;
     z-index: 1;
 }
 
 .register {
+    color: #5f564f;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
     z-index: 1;
 }
 
