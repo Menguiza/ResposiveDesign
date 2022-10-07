@@ -93,54 +93,16 @@ body{
 }
 
 #navBar {
-    background: #A0CCDA;
-    height: 70px;
+    background: #589e93;
+    height: 118px;
     width: 100%;
-    position: relative;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 .logoBar {
-    top: 5px;
-    left: 10px;
-    position: absolute;
-}
-
-.listBar {
-    top: 5px;
-    left: 270px;
-    position: absolute;
-    z-index: 1;
-}
-
-.textBar {
-    top: 5px;
-    left: 80px;
-    position: absolute;
-    font-size: 40px;
-}
-
-.userBar {
-    top: 5px;
-    right: 10px;
-    position: absolute;
-    z-index: 1;
-}
-
-.searchBar {
-    top: 5px;
-    right: 290px;
-    position: absolute;
-    z-index: 1;
-}
-
-.homeBar {
-    top: 5px;
-    right: 360px;
-    position: absolute;
-    z-index: 1;
-}
-
-.reproductorBar {
     display: block;
     margin-top: auto;
     margin-bottom: auto;
@@ -148,25 +110,18 @@ body{
     margin-right: auto;
 }
 
-.search-box {
-    position: absolute;
-    top: 5px;
-    right: 80px;
-    width: 200px;
-    background: white;
-}
-
 .wrapper {
     display: grid;
     grid-template-columns: auto;
-    gap: 50px;
     grid-auto-rows: auto;
+    gap: 20px 50px;
     justify-content: center;
 }
 
 .one {
     grid-column: 1;
-    grid-row: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
 .two {
@@ -176,7 +131,7 @@ body{
 
 .three {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
 }
 
 .four {
@@ -185,48 +140,13 @@ body{
 }
 
 .five {
-    grid-column: 1;
-    grid-row: 3;
-}
-
-.six {
     grid-column: 2;
     grid-row: 3;
 }
 
-.seven {
-    grid-column: 1;
-    grid-row: 4;
-}
-
-.nine {
-    grid-column: 1;
-    grid-row: 5;
-}
-
-.eleven {
-    grid-column: 1;
-    grid-row: 6;
-}
-
 .vinyl {
-    border-radius: 25px;
-    background: #7BC950;
-    width: 400px;
-    height: 400px;
     display: flex;
     justify-content: center;
-    z-index: 1;
-}
-
-.textVinyl {
-    font-size: 40px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    text-decoration: none;
     z-index: 1;
 }
 
