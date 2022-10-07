@@ -126,26 +126,36 @@ body{
     grid-column: 1;
     grid-row-start: 1;
     grid-row-end: 3;
+    width: 281px;
+    height: 577px;
 }
 
 .two {
     grid-column: 2;
     grid-row: 1;
+    width: 345px;
+    height: 239px;
 }
 
 .three {
     grid-column: 1;
     grid-row: 3;
+    width: 281px;
+    height: 113px;
 }
 
 .four {
     grid-column: 2;
     grid-row: 2;
+    width: 345px;
+    height: 216px;
 }
 
 .five {
     grid-column: 2;
     grid-row: 3;
+    width: 345px;
+    height: 216px;
 }
 
 .vinyl {
