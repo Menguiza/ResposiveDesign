@@ -112,6 +112,10 @@ body{
 
 .wrapper {
     display: grid;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: auto;
     grid-auto-rows: auto;
     gap: 20px 50px;
